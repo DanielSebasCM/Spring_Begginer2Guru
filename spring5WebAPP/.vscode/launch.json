@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-Spring5WebAppApplication<spring5WebAPP>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "learning.spring.spring5WebAPP.Spring5WebAppApplication",
+      "projectName": "spring5WebAPP",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

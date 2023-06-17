@@ -1,0 +1,6 @@
+learning\spring\domain\Book.class
+learning\spring\spring5WebAPP\Spring5WebAppApplication.class
+learning\spring\domain\Author.class
+learning\spring\bootstrap\BootStrapData.class
+learning\spring\repositories\AuthorRepository.class
+learning\spring\repositories\BookRepository.class

@@ -5,7 +5,7 @@
 
     <groupId>cajas.spring</groupId>
     <artifactId>pet-clinic-data</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>pet-clinic-data</name>

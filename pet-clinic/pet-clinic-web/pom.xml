@@ -4,7 +4,7 @@
 
     <groupId>cajas.spring</groupId>
     <artifactId>pet-clinic-web</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>pet-clinic-web</name>
@@ -51,9 +51,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
-  <scm>
-    <tag>pet-clinic-0.0.3</tag>
-  </scm>
 </project>

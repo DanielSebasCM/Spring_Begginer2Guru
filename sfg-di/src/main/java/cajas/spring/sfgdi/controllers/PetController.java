@@ -1,6 +1,6 @@
 package cajas.spring.sfgdi.controllers;
 
-import cajas.spring.sfgdi.services.PetService;
+import com.springframework.pets.PetService;
 import org.springframework.stereotype.Controller;
 
 /**

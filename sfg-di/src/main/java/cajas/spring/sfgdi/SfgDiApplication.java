@@ -8,6 +8,7 @@ import cajas.spring.sfgdi.controllers.MyController;
 import cajas.spring.sfgdi.controllers.PetController;
 import cajas.spring.sfgdi.controllers.PropertyInjectedController;
 import cajas.spring.sfgdi.controllers.SetterInjectedController;
+import cajas.spring.sfgdi.datasource.FakeDataSource;
 import cajas.spring.sfgdi.controllers.ConstructorInjectedController;
 import cajas.spring.sfgdi.controllers.I18nController;
 
@@ -38,6 +39,11 @@ public class SfgDiApplication {
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx
 				.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
+
+		FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
+		System.out.println(fakeDataSource.getUsername());
+		System.out.println(fakeDataSource.getPassword());
+		System.out.println(fakeDataSource.getJdbcurl());
 	}
 
 }

@@ -1,15 +1,12 @@
 package cajas.spring.sfgdi.services;
 
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Service;
-
-@Primary
-@Service
+/**
+ * Created by jt on 12/27/19.
+ */
 public class PrimaryGreetingService implements GreetingService {
 
     @Override
     public String sayGreeting() {
-        return "Hi folks!!  PRIMARY";
+        return "Hello World - From the PRIMARY Bean";
     }
-
 }

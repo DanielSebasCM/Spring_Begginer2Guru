@@ -2,10 +2,19 @@ package cajas.spring.petclinic.services.map;
 
 import java.util.Set;
 
-import cajas.spring.petclinic.model.Owner;
-import cajas.spring.petclinic.services.CrudService;
+import org.springframework.stereotype.Service;
 
-public class OwnerMapService extends AbstractMapService<Owner, Long> implements CrudService<Owner, Long> {
+import cajas.spring.petclinic.model.Owner;
+import cajas.spring.petclinic.services.OwnerService;
+
+@Service
+public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
+
+    @Override
+    public Owner findByLastName(String lastName) {
+        // TODO Auto-generated method stub
+        return null;
+    }
 
     @Override
     public Owner findById(Long id) {

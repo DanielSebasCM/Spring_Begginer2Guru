@@ -1,7 +1,5 @@
 package cajas.spring.sfgdi.datasource;
 
-import org.springframework.beans.factory.annotation.Value;
-
 /**
  * Created by jt on 2/27/21.
  */

@@ -9,7 +9,7 @@ import cajas.spring.sfgdi.controllers.PetController;
 import cajas.spring.sfgdi.controllers.PropertyInjectedController;
 import cajas.spring.sfgdi.controllers.SetterInjectedController;
 import cajas.spring.sfgdi.datasource.FakeDataSource;
-import cajas.spring.sfgdi.config.SfgConfig;
+import cajas.spring.sfgdi.config.SfgConstructorConfig;
 import cajas.spring.sfgdi.controllers.ConstructorInjectedController;
 import cajas.spring.sfgdi.controllers.I18nController;
 
@@ -53,7 +53,7 @@ public class SfgDiApplication {
 		System.out.println(fakeDataSource.getJdbcurl());
 
 		System.out.println("--- Sfg Config ---");
-		SfgConfig sfgConfig = ctx.getBean(SfgConfig.class);
+		SfgConstructorConfig sfgConfig = ctx.getBean(SfgConstructorConfig.class);
 		System.out.println(sfgConfig.getUsername());
 		System.out.println(sfgConfig.getPassword());
 		System.out.println(sfgConfig.getJdbcurl());

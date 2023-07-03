@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: dog,EN,qa
+
+cajas:
+  username: "superuser"
+  password: "password123"
+  jdbcUrl: "http://localhost:8080"

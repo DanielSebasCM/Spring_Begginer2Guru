@@ -1,0 +1,4 @@
+cajas:
+  username: "superuserDev"
+  password: "password123Dev"
+  jdbcurl: "http://localhost:8080/Dev"

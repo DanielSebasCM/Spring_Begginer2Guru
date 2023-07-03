@@ -1,8 +1,18 @@
 spring:
   profiles:
-    active: dog,EN,qa
+    active: dog,EN,prod
 
 cajas:
   username: "superuser"
   password: "password123"
   jdbcUrl: "http://localhost:8080"
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+cajas:
+  username: "superuserProd"
+  password: "password123Prod"
+  jdbcUrl: "http://localhost:8080/Prod"
